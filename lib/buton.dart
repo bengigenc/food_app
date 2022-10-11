@@ -12,9 +12,8 @@ class buton1 extends StatefulWidget {
 class _buton1State extends State<buton1> {
   @override
   Widget build(BuildContext context) {
-    return Scaffold(
-      backgroundColor: Colors.black,
-      body: GestureDetector(
+    return Container(
+      child: GestureDetector(
         child: Container(
           alignment: Alignment.center,
           height: 63.99,
