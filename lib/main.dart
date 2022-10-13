@@ -4,6 +4,7 @@ import 'package:food_app/buton.dart';
 import 'package:food_app/food1.dart';
 import 'package:food_app/food2.dart';
 import 'package:food_app/location.dart';
+import 'package:food_app/restaurant.dart';
 
 void main() {
   runApp(const MyApp());
@@ -71,7 +72,7 @@ class _MyHomePageState extends State<MyHomePage> {
    
     return Scaffold(
 
-      body: location()
+      body: Restaurant()
     );
   }
 }
