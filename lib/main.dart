@@ -1,10 +1,11 @@
 
 import 'package:flutter/material.dart';
 import 'package:food_app/buton.dart';
+import 'package:food_app/categories.dart';
 import 'package:food_app/food1.dart';
 import 'package:food_app/food2.dart';
 import 'package:food_app/location.dart';
-import 'package:food_app/search.dart';
+
 
 void main() {
   runApp(const MyApp());
@@ -72,7 +73,7 @@ class _MyHomePageState extends State<MyHomePage> {
    
     return Scaffold(
 
-      body: search()
+<
     );
   }
 }
