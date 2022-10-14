@@ -14,6 +14,7 @@ class _PromoState extends State<Promo> {
   Widget build(BuildContext context) {
     
     return Container(
+      margin: EdgeInsets.only(top: 10),
       child: Stack(
         children: [
           Container(

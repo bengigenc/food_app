@@ -19,7 +19,7 @@ class _RestaurantState extends State<Restaurant> {
   @override
   Widget build(BuildContext context) {
     return Container(
-      margin: EdgeInsets.only(left:10, right: 10, ),
+      margin: EdgeInsets.only(left:10, right: 10, top: 10 ),
       height: 96.95,
       width: 359.69,
       decoration: BoxDecoration(color: Color(0xffFFFFFF),
@@ -38,7 +38,7 @@ class _RestaurantState extends State<Restaurant> {
           ),
           Container(
          
-          width: 206,
+          width: 170,
             padding: EdgeInsets.only(top: 10, bottom: 10, left: 10),
             child: Column(
               crossAxisAlignment: CrossAxisAlignment.start,

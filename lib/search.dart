@@ -15,7 +15,7 @@ class _searchState extends State<search> {
   Widget build(BuildContext context) {
     return Container(
      
-      margin: EdgeInsets.only(right: 10,left:10),
+      margin: EdgeInsets.only(right: 10,left:10,top: 10),
       child: Row(
         mainAxisAlignment: MainAxisAlignment.spaceBetween,
         children: [

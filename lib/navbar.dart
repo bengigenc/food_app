@@ -19,7 +19,7 @@ class _NavbarState extends State<Navbar> {
     return Container(
     
       decoration: BoxDecoration(border: Border.all(width: 1,color: Colors.grey.shade300),),
-      margin: EdgeInsets.only(top: 200),
+      margin: EdgeInsets.only(top: 10),
       height: 75.62,
       width: 414.96,
   
