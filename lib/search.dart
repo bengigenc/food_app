@@ -15,12 +15,13 @@ class _searchState extends State<search> {
   Widget build(BuildContext context) {
     return Container(
      
-      margin: EdgeInsets.only(right: 10,left: 10),
+      margin: EdgeInsets.only(right: 10,left:10),
       child: Row(
+        mainAxisAlignment: MainAxisAlignment.spaceBetween,
         children: [
           Container(
             height: 40.72,
-            width: 300.55,
+            width: 290.55,
             decoration: BoxDecoration(
                 borderRadius: BorderRadius.circular(5.82),
                 border: Border.all(width: 1, color: Color(0xffFFFFFF))),

@@ -4,7 +4,12 @@ import 'package:flutter/src/widgets/container.dart';
 import 'package:flutter/src/widgets/framework.dart';
 
 class Restaurant extends StatefulWidget {
-  const Restaurant({super.key});
+  const Restaurant({super.key, required this.restImage,required this.restName,required this.restPoint, required this.restTime, required this.restKm});
+  final String restImage;
+  final String restName;
+  final String restPoint;
+  final String restTime;
+  final String restKm;
 
   @override
   State<Restaurant> createState() => _RestaurantState();
@@ -25,7 +30,7 @@ class _RestaurantState extends State<Restaurant> {
           Container(
             decoration: BoxDecoration(
                 image: DecorationImage(
-                    image: AssetImage("assets/images/Restaurant1.png"),
+                    image: AssetImage(widget.restImage),
                     fit: BoxFit.cover),
                 borderRadius: BorderRadius.circular(15)),
             height: 96.95,
@@ -42,7 +47,7 @@ class _RestaurantState extends State<Restaurant> {
                 Container(
                   
                   child: Text(
-                    "Burger King",
+                    widget.restName,
                     style: TextStyle(fontSize: 13.57, color: Color(0xff010E16)),
                   ),
                 ),
@@ -57,7 +62,7 @@ class _RestaurantState extends State<Restaurant> {
                         size: 19.39,
                       ),
                       Text(
-                        "4.5",
+                        widget.restPoint,
                         style: TextStyle(
                             color: Color(0xffB3B3B3), fontSize: 13.57),
                       ),
@@ -76,7 +81,7 @@ class _RestaurantState extends State<Restaurant> {
                         color: Color(0xff9B9B9B),
                       ),
                       Text(
-                        "25-35 mins",
+                        widget.restTime,
                         style: TextStyle(
                             color: Color(0xffB3B3B3), fontSize: 13.57),
                       ),
@@ -86,7 +91,7 @@ class _RestaurantState extends State<Restaurant> {
                         color: Color(0xffD9D9D9),
                       ),
                       Text(
-                        "8 km",
+                        widget.restKm,
                         style: TextStyle(
                             color: Color(0xffB3B3B3), fontSize: 13.57),
                       )
