@@ -5,7 +5,6 @@ import 'package:food_app/categories.dart';
 import 'package:food_app/food1.dart';
 import 'package:food_app/food2.dart';
 import 'package:food_app/location.dart';
-import 'package:food_app/promo.dart';
 
 
 void main() {
